@@ -1,0 +1,19 @@
+html{
+    background-color: rgb(23,23,23);
+}
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+#container div {
+    background-color: black;
+    aspect-ratio: 1;
+  }
+
+#container div:hover {
+    background-color: #f99e91;
+}  
