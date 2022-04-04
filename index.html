@@ -5,19 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Etch-a-sketch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
-        <h4 style="display: inline-block">Enter the size of your grid:</h4>
-        <input type="number">
+    <h2>Etch A Sketch: Click to Draw</h2>
+    <div style="display: inline-block; margin-right: 20px;">
+        <h4 class="label">Select Grid Size:</h3>
+        <select name="" id="grid-dropdown">
+            <option value="16">16x16</option>
+            <option selected="selected" value="32">32x32</option>
+            <option value="64">64x64</option>
+            <option value="124">124x124</option>
+
+        </select>
     </div>
-    <div>
-        <h4 style="display: inline-block">Chose a color:</h4>
-        <input type="color">
+    <div style="display: inline-block;">
+        <h4 class="label">Choose Color:</h4>
+        <input id="color-select" type="color">
+    </div>
+    <div class="m-20">
+        <button class="btn" onclick="clearColor()">CLEAR</button>
+        <div id="container"></div>
     </div>
 
-    <div id="container"></div>
     <script src="./main.js"></script>
 </body>
 </html>
