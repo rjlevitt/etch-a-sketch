@@ -1,7 +1,7 @@
 const container = document.querySelector('#container');
 const gridInput = document.querySelector('#grid-dropdown');
 const colorInput = document.querySelector('#color-select');
-let color = "#f99e91"
+let color = "#36a2eb"
 
 function removeGrid(parent) {
     while (parent.firstChild) {
@@ -27,8 +27,7 @@ function clearColor() {
     const container = document.querySelector('#container');
     const grid = document.querySelectorAll('.grid');
     grid.forEach((div)=>{
-        div.style.background = 'black';
-        div.style.borderColor = 'rgb(35,35,35)';
+        div.style.background = 'rgb(35,35,35)';
     })
 }
 
@@ -42,7 +41,6 @@ function buildGrid(grid){
             console.log(event)
             if(event.buttons){
                 event.target.style.background = color;
-                event.target.style.borderColor = color;
             }
         });
         container.appendChild(temp);
