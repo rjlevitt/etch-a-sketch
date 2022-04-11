@@ -1,6 +1,6 @@
 # etch-a-sketch
 
-A simple JavaScript version of "etch-a-sketch". Project was part of the Odin Project - see full description below. 
+A simple JavaScript version of "Etch A Sketch". Project was part of the Odin Project - see full description below. 
 
 [Live Example](https://rjlevitt.github.io/etch-a-sketch/)
 
