@@ -52,14 +52,14 @@ select{
 }
 
 #container{
-    border: 1px solid #f99e91;
-    background-color: rgb(35,35,35);
+    border: 2px solid #f99e91;
+    background-color: rgb(50,50,50);
     border-radius: 5px;
     margin: 10px auto;
     width: 550px;
     height: 550px;
     display: grid;
-    box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 8px 25px 0px;
 }
 
 .footer-text{

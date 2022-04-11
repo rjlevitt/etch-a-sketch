@@ -27,7 +27,7 @@ function clearColor() {
     const container = document.querySelector('#container');
     const grid = document.querySelectorAll('.grid');
     grid.forEach((div)=>{
-        div.style.background = 'rgb(35,35,35)';
+        div.style.background = 'rgb(50,50,50)';
     })
 }
 
