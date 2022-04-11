@@ -1,7 +1,7 @@
 const container = document.querySelector('#container');
 const gridInput = document.querySelector('#grid-dropdown');
 const colorInput = document.querySelector('#color-select');
-let color = "black"
+let color = "#f99e91"
 
 function removeGrid(parent) {
     while (parent.firstChild) {
@@ -27,8 +27,8 @@ function clearColor() {
     const container = document.querySelector('#container');
     const grid = document.querySelectorAll('.grid');
     grid.forEach((div)=>{
-        div.style.background = 'white';
-        div.style.borderColor = 'rgb(245,245,245)';
+        div.style.background = 'black';
+        div.style.borderColor = 'rgb(35,35,35)';
     })
 }
 

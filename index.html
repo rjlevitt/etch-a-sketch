@@ -11,24 +11,31 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h2>Etch A Sketch: Click to Draw</h2>
-    <div style="display: inline-block; margin-right: 20px;">
-        <h4 class="label">Select Grid Size:</h3>
-        <select name="" id="grid-dropdown">
-            <option value="16">16x16</option>
-            <option selected="selected" value="32">32x32</option>
-            <option value="64">64x64</option>
-            <option value="124">124x124</option>
-
-        </select>
-    </div>
-    <div style="display: inline-block;">
-        <h4 class="label">Choose Color:</h4>
-        <input id="color-select" type="color">
-    </div>
-    <div class="m-20">
+    <div class="input-container">
+        <h1>Etch A Sketch</h1>
+        <div class="inline">
+            <h4 class="label">GRID:</h3>
+            <select name="" id="grid-dropdown">
+                <option value="16">16x16</option>
+                <option selected="selected" value="32">32x32</option>
+                <option value="64">64x64</option>
+                <option value="124">124x124</option>
+    
+            </select>
+        </div>
+        <div class="inline">
+            <h4 class="label">COLOR:</h4>
+            <input id="color-select" type="color">
+        </div>
         <button class="btn" onclick="clearColor()">CLEAR</button>
+    </div>
+
+    <div class="grid-container">
+        <h4 class="m-0">(hold down mouse to draw)</h4>
         <div id="container"></div>
+    </div>
+    <div>
+        <h3 class="footer-text">Made by: <a href="https://github.com/rjlevitt">Ryan Levitt</a></h3>
     </div>
 
     <script src="./main.js"></script>
